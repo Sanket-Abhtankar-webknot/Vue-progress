@@ -1,5 +1,11 @@
 {
   "files": [],
+  "compilerOptions": {
+    "allowJs": true,
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "typeRoots": ["./shims", "./node_modules/@types/"]
+  },
   "references": [
     {
       "path": "./tsconfig.node.json"
