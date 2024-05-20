@@ -2,9 +2,11 @@
   "files": [],
   "compilerOptions": {
     "allowJs": true,
-    "moduleResolution": "node",
-    "noImplicitAny": false,
-    "typeRoots": ["./shims", "./node_modules/@types/"]
+    "checkJs": true,
+    "isolatedModules": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "jsxImportSource": "vue"
   },
   "references": [
     {
